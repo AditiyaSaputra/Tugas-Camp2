@@ -3,10 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	// Membuat slice kosong dengan panjang awal 5
+	// Membuat slice dengan panjang awal 5
 	slice := make([]int, 5)
-
-	// Menambahkan 3 data ke dalam slice
 	slice[0] = 10
 	slice[1] = 20
 	slice[2] = 30
